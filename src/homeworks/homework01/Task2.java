@@ -21,5 +21,7 @@ public class Task2 {
 
         System.out.println(petya);
         System.out.println(vasya);
+
+
     }
 }
