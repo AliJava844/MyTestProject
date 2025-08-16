@@ -17,5 +17,6 @@ public class Task2 {
         System.out.println(first - second);
         System.out.println(Math.max(first, second));
         System.out.println(Math.min(first, second));
+
     }
 }
