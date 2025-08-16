@@ -26,5 +26,6 @@ public class App {
 
         TV tvLenovo = new TV(model, diagonal, price, matrix);
         System.out.println(tvLenovo);
+
     }
 }
