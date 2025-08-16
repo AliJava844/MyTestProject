@@ -17,4 +17,5 @@ public class Task3 {
 
         System.out.println(Arrays.toString(strings));
     }
+
 }
