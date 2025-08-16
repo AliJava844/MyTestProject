@@ -17,5 +17,6 @@ public class Task3 {
         }
 
         System.out.println("После повторения " + count + " раз: " + result);
+
     }
 }

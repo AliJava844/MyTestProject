@@ -12,5 +12,6 @@ public class Task1 {
 
         System.out.println(farenheit + " градусов по фаренгейту равна " + celsius + " по цельсию");
 
+
     }
 }
