@@ -1,4 +1,4 @@
-package homeworks.homework06;
+package homeworks.homework06.task1;
 
 public class Product {
     private String nameProduct;
