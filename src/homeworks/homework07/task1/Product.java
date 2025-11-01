@@ -1,14 +1,12 @@
-package homeworks.howework07.task2;
+package homeworks.homework07.task1;
 
 public class Product {
     private String nameProduct;
     private double price;
-    private boolean availability;
 
-    public Product(String nameProduct, double price, boolean availability) {
+    public Product(String nameProduct, double price) {
         this.setNameProduct(nameProduct);
         this.setPrice(price);
-        this.availability = availability;
     }
 
     public String getNameProduct() {
@@ -50,14 +48,6 @@ public class Product {
         }
     }
 
-    public boolean isAvailability() {
-        return availability;
-    }
-
-    public void setAvailability(boolean availability) {
-        this.availability = availability;
-    }
-
     @Override
     public String toString() {
         return "Product{" +
@@ -70,14 +60,13 @@ public class Product {
         if (o == null || getClass() != o.getClass()) return false;
 
         Product product = (Product) o;
-        return Double.compare(price, product.price) == 0 && availability == product.availability && nameProduct.equals(product.nameProduct);
+        return Double.compare(price, product.price) == 0 && nameProduct.equals(product.nameProduct);
     }
 
     @Override
     public int hashCode() {
         int result = nameProduct.hashCode();
         result = 31 * result + Double.hashCode(price);
-        result = 31 * result + Boolean.hashCode(availability);
         return result;
     }
 }

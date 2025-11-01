@@ -1,4 +1,4 @@
-package homeworks.howework07.task2;
+package homeworks.homework07.task1;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -8,13 +8,11 @@ public class Person {
     private String name;
     private double money;
     private List<Product> bag;
-    private int age;
 
-    public Person(String name, double money, List<Product> bag, int age) {
+    public Person(String name, double money, List<Product> bag) {
         this.setName(name);
         this.setMoney(money);
         this.bag = new ArrayList<>();
-        this.setAge(age);
     }
 
     public String getName() {
@@ -38,29 +36,12 @@ public class Person {
             this.money = money;
         } else {
             throw new IllegalArgumentException("Деньги не" +
-                    " могут быть отрицательными");
-        }
-    }
-
-    public int getAge() {
-        return age;
-    }
-
-    public void setAge(int age) {
-        if (age >= 0) {
-            this.age = age;
-        } else {
-            throw new IllegalArgumentException("Возраст не может" +
-                    " быть отрицательным");
+                    "могут быть отрицательными");
         }
     }
 
     public List<Product> getBag() {
         return Collections.unmodifiableList(bag);
-    }
-
-    public void setBag(List<Product> bag) {
-        this.bag = bag;
     }
 
     public void addProduct(Product product) {
@@ -88,7 +69,6 @@ public class Person {
         } else {
             return "Person{" +
                     "name='" + name + '\'' +
-                    ", age=" + age +
                     ", money=" + money +
                     ", bag=" + bag +
                     '}';
@@ -100,7 +80,7 @@ public class Person {
         if (o == null || getClass() != o.getClass()) return false;
 
         Person person = (Person) o;
-        return Double.compare(money, person.money) == 0 && age == person.age && name.equals(person.name) && bag.equals(person.bag);
+        return Double.compare(money, person.money) == 0 && name.equals(person.name) && bag.equals(person.bag);
     }
 
     @Override
@@ -108,7 +88,6 @@ public class Person {
         int result = name.hashCode();
         result = 31 * result + Double.hashCode(money);
         result = 31 * result + bag.hashCode();
-        result = 31 * result + age;
         return result;
     }
 }

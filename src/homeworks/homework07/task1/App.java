@@ -1,4 +1,4 @@
-package homeworks.howework07.task1;
+package homeworks.homework07.task1;
 
 import java.time.LocalDate;
 import java.util.ArrayList;

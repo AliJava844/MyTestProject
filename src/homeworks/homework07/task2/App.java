@@ -1,4 +1,4 @@
-package homeworks.howework07.task2;
+package homeworks.homework07.task2;
 
 
 import java.time.LocalDate;

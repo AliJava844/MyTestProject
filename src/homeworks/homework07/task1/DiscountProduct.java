@@ -1,4 +1,4 @@
-package homeworks.howework07.task2;
+package homeworks.homework07.task1;
 
 import java.time.LocalDate;
 
@@ -7,8 +7,8 @@ public class DiscountProduct extends Product {
     private boolean discountIsOn;
     private LocalDate timeDiscount;
 
-    public DiscountProduct(String nameProduct, double price, boolean availability, int discount, boolean discountIsOn, LocalDate timeDiscount) {
-        super(nameProduct, price, availability);
+    public DiscountProduct(String nameProduct, double price, int discount, boolean discountIsOn, LocalDate timeDiscount) {
+        super(nameProduct, price);
         this.discount = discount;
         this.discountIsOn = discountIsOn;
         this.timeDiscount = timeDiscount;
