@@ -1,0 +1,10 @@
+Car{numberCar='a123me', model='Mercedes', color='White', mileage=0.0, price=8300000.0}
+Car{numberCar='b873of', model='Volga', color='Black', mileage=0.0, price=673000.0}
+Car{numberCar='w487mn', model='Lexus', color='Grey', mileage=76000.0, price=900000.0}
+Car{numberCar='p987hj', model='Volga', color='Red', mileage=610.0, price=704340.0}
+Car{numberCar='c987ss', model='Toyota', color='White', mileage=254000.0, price=761000.0}
+Car{numberCar='o983op', model='Toyota', color='Black', mileage=698000.0, price=740000.0}
+Car{numberCar='p146op', model='BMW', color='White', mileage=271000.0, price=850000.0}
+Car{numberCar='u893ii', model='Toyota', color='Purple', mileage=210900.0, price=440000.0}
+Car{numberCar='l097df', model='Toyota', color='Black', mileage=108000.0, price=780000.0}
+Car{numberCar='y876wd', model='Toyota', color='Black', mileage=160000.0, price=1000000.0}
