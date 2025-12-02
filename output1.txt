@@ -1,0 +1,10 @@
+Car{brand='BMW', model='320i', yearOfManufacture=170, power=2012, acceleration=8, suspension=100, durability=80}
+PerformanceCar{addOns=[Turbo, Sport]} Car{brand='Audi', model='RS3', yearOfManufacture=2020, power=600, acceleration=6, suspension=60, durability=90}
+ShowCar{stars=95} Car{brand='Porsche', model='GTTurbo3S', yearOfManufacture=2021, power=650, acceleration=4, suspension=70, durability=95}
+Race{length=1000, route='Highway', prizeFund=50000, members=[Car{brand='BMW', model='320i', yearOfManufacture=170, power=2012, acceleration=8, suspension=100, durability=80}, PerformanceCar{addOns=[Turbo, Sport]} Car{brand='Audi', model='RS3', yearOfManufacture=2020, power=600, acceleration=6, suspension=60, durability=90}, ShowCar{stars=95} Car{brand='Porsche', model='GTTurbo3S', yearOfManufacture=2021, power=650, acceleration=4, suspension=70, durability=95}]}
+TimeLimitRace{goldTime=120} Race{length=1500, route='City', prizeFund=80000, members=[Car{brand='BMW', model='320i', yearOfManufacture=170, power=2012, acceleration=8, suspension=100, durability=80}, PerformanceCar{addOns=[Turbo, Sport]} Car{brand='Audi', model='RS3', yearOfManufacture=2020, power=600, acceleration=6, suspension=60, durability=90}, ShowCar{stars=95} Car{brand='Porsche', model='GTTurbo3S', yearOfManufacture=2021, power=650, acceleration=4, suspension=70, durability=95}]}
+CircuitRace{laps=5} Race{length=500, route='Track', prizeFund=100000, members=[Car{brand='BMW', model='320i', yearOfManufacture=170, power=2012, acceleration=8, suspension=100, durability=80}, PerformanceCar{addOns=[Turbo, Sport]} Car{brand='Audi', model='RS3', yearOfManufacture=2020, power=600, acceleration=6, suspension=60, durability=90}, ShowCar{stars=95} Car{brand='Porsche', model='GTTurbo3S', yearOfManufacture=2021, power=650, acceleration=4, suspension=70, durability=95}]}
+
+BMW выйграл в обычной гонке.
+Audi выйграл в гонке на время
+Porsche выйграл на трассе
