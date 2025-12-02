@@ -1,4 +1,4 @@
-package homeworks.homework11;
+package homeworks.homework11.task1;
 
 import java.util.ArrayList;
 import java.util.Comparator;

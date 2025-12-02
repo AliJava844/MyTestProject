@@ -1,4 +1,4 @@
-package homeworks.homework11;
+package homeworks.homework11.task1;
 
 public class Car {
     private String numberCar;
